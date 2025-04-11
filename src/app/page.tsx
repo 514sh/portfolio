@@ -15,7 +15,8 @@ const Home = () => {
           clean, maintainable, and enjoyable codebases.
         </p>
       </div>
-      <div className="flex flex-row flex-wrap justify-center">
+      <div className="flex flex-row-reverse flex-wrap justify-center">
+        <ButtonRouter name="Contact me" route="/contacts" />
         <a
           href="/mark_balagtas_cv.pdf"
           target="_blank"
@@ -23,8 +24,7 @@ const Home = () => {
           className="p-8 m-8 text-3xl text-red-600 bg-stone-200 rounded-lg hover:bg-stone-300"
         >
           View my CV
-        </a>{" "}
-        <ButtonRouter name="Contact me" route="/contacts" />
+        </a>
       </div>
       <div></div>
     </div>
